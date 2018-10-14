@@ -1,0 +1,15 @@
+footer {
+  background-color: #838b83;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+/*# sourceMappingURL=footer.css.map */
