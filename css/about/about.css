@@ -15,8 +15,10 @@
 .member-holder {
   margin: 10px auto;
   background-color: #5D6D7E;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: auto auto;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
   grid-gap: 10px;
   text-align: center;
   color: #fff;
@@ -45,6 +47,10 @@
   padding: 20px;
 }
 
+.ul ul {
+  list-style: none;
+}
+
 .aboutus p {
   font-size: 13px;
 }
@@ -63,7 +69,8 @@ form input, form textarea {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -79,5 +86,7 @@ form button {
 
 form button:hover {
   background-color: #808B96;
+  -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
+/*# sourceMappingURL=about.css.map */
